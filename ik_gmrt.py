@@ -36,7 +36,7 @@ def plot(t1, t2, L1, L2, x_end, y_end, joint1): # definisi fungsi plot
     plt.axis('equal')
     plt.xlabel('X (cm)', fontsize=12)
     plt.ylabel('Y (cm)', fontsize=12)
-    plt.title(f'Inverse Kinematics: fontsize=14, fontweight='bold')
+    plt.title(f'Inverse Kinematics:', fontsize=14, fontweight='bold')
     plt.legend(loc='best', fontsize=10)
 
     # notasi sudut
@@ -80,3 +80,4 @@ if __name__ == "__main__":
     # plot visualisasi
 
     plot(t1, t2, L1, L2, x_end, y_end, joint1)
+
