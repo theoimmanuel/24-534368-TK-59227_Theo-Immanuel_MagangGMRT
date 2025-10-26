@@ -46,7 +46,7 @@ def plot(t1, t2, L1, L2, x_end, y_end, joint1): # definisi fungsi plot
     plt.axis('equal')
     plt.xlabel('X (cm)', fontsize=12)
     plt.ylabel('Y (cm)', fontsize=12)
-    plt.title(f'Forward Kinematics: θ1={t1}°, θ2={t2}°', fontsize=14, fontweight='bold')
+    plt.title(f'Forward Kinematics: fontsize=14, fontweight='bold')
     plt.legend(loc='best', fontsize=10)
     
     plt.tight_layout()
@@ -75,4 +75,5 @@ if __name__ == "__main__":
     print(f"End Effector Position: ({x_end:.2f}, {y_end:.2f})")
 
     # plot visualisasi
+
     plot(t1, t2, L1, L2, x_end, y_end, joint1)
